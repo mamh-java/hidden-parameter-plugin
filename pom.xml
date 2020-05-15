@@ -15,7 +15,7 @@
     <version>0.0.5</version>
     <name>Hidden++ Parameter plugin</name>
     <description>support hide string/text parameter</description>
-    <url>http://wiki.jenkins-ci.org/display/JENKINS/Hidden+Parameter+Plugin</url>
+    <url>https://github.com/mamh-java/hidden-parameter-plugin</url>
 
     <organization>
         <name>mage</name>
@@ -50,8 +50,9 @@
 
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/hidden-parameter-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/hidden-parameter-plugin.git
-        </developerConnection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/hidden-parameter-plugin.git</developerConnection>
+        <url>https://github.com/mamh-java/hidden-parameter-plugin</url>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
