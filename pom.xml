@@ -28,29 +28,9 @@
         </developer>
     </developers>
 
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.jenkins-ci.tools</groupId>
-                <artifactId>maven-hpi-plugin</artifactId>
-                <configuration>
-                    <pluginFirstClassLoader>true</pluginFirstClassLoader>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/hidden-parameter-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/hidden-parameter-plugin.git</developerConnection>
+        <connection>scm:git:https://github.com/mamh-java/hidden-parameter-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/mamh-java/hidden-parameter-plugin.git</developerConnection>
         <url>https://github.com/mamh-java/hidden-parameter-plugin</url>
         <tag>HEAD</tag>
     </scm>
@@ -70,7 +50,8 @@
     </pluginRepositories>
 
     <properties>
-        <jenkins.version>2.176.1</jenkins.version>
+        <jenkins.version>2.249.3</jenkins.version>
+         <slf4jVersion>1.7.26</slf4jVersion>
         <java.level>8</java.level>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
