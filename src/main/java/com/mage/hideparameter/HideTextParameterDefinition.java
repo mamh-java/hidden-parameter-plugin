@@ -2,6 +2,7 @@ package com.mage.hideparameter;
 
 import net.sf.json.JSONObject;
 
+import org.jenkinsci.Symbol;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
@@ -21,6 +22,7 @@ public class HideTextParameterDefinition extends TextParameterDefinition {
     }
 
     @Extension
+    @Symbol({"hidetext", "hidetextParam"})
     public static class DescriptorImpl extends ParameterDescriptor {
         @Override
         public String getDisplayName() {
