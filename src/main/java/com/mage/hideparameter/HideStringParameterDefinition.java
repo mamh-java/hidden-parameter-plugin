@@ -35,7 +35,7 @@ public class HideStringParameterDefinition extends StringParameterDefinition {
     public static class DescriptorImpl extends ParameterDescriptor {
         @Override
         public String getDisplayName() {
-            return "HideString Parameter";
+            return Messages.HideStringParameterDefinition_DisplayName();
         }
 
         @Override

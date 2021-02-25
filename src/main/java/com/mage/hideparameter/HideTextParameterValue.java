@@ -6,7 +6,7 @@ import hudson.model.TextParameterValue;
 
 
 public class HideTextParameterValue extends TextParameterValue {
-    
+
     private static final long serialVersionUID = 6926027508686211675L;
 
     @DataBoundConstructor

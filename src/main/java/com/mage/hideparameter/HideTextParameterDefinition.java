@@ -26,7 +26,7 @@ public class HideTextParameterDefinition extends TextParameterDefinition {
     public static class DescriptorImpl extends ParameterDescriptor {
         @Override
         public String getDisplayName() {
-            return "HideText Parameter";
+            return Messages.HideTextParameterDefinition_DisplayName();
         }
 
         @Override

@@ -6,7 +6,7 @@ import org.kohsuke.stapler.DataBoundConstructor;
 
 
 public class HideStringParameterValue extends StringParameterValue {
-    
+
     private static final long serialVersionUID = 6926027508686211675L;
 
     @DataBoundConstructor
