@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+<div>
+  Hidden++ Parameter provides several ways to retrieve Hidden parameter,
+  like hidden string, hidden text parameter.
+</div>
